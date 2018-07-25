@@ -1,0 +1,33 @@
+body {
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/datascience2.png");
+    background-repeat: no-repeat, repeat;
+    background-color: black;
+}
+
+header {
+    color: rgb(218, 219, 228);
+    text-shadow: 3px 0px #000;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.flex-container {
+    width: 75%;
+}
+
+.page-container {
+    display: flex;
+    background-color: rgba(8, 219, 247, 0.7);
+    border: 2px solid black;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 75%;
+    box-shadow: 5px 10px #050000;
+}
